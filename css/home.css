@@ -1,0 +1,45 @@
+html, body{
+	margin: 0;
+	padding: 0.5rem;	
+}
+body {
+	background: url(../images/home.jpg) no-repeat fixed; 
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100% ;
+	-o-background-size: 100% 100%;
+	background-size: 100% 100%;	
+}
+p
+{
+	font-size: inherit;
+	color: black;
+}
+#j
+{
+	text-align:center;  
+}	
+#h
+{
+	text-align:center; 
+}
+button
+{  
+	font-size: 4.6vmin;
+	color:white;
+	width: 50%;
+	border-radius:25px;
+	background:rgb(244,77,77);
+	border:black; 
+	padding:4%;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+button:hover
+{
+	font-weight:bold;
+	font-size: 5.0vmin;
+	background-color: white; 
+    color: black; 
+    border: 1px solid #f44336;
+}
